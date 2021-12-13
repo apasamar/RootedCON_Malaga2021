@@ -1,0 +1,9 @@
+i686-w64-mingw32-gcc hello_world.c 
+i686-w64-mingw32-strip a.exe 
+i686-w64-mingw32-gcc --help
+i686-w64-mingw32-gcc -S hello_world.c 
+less hello_world.s
+i686-w64-mingw32-gcc -masm=intel -S hello_world.c 
+less hello_world.s
+x86_64-w64-mingw32-gcc -masm=intel -S hello_world.c
+

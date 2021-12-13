@@ -1,0 +1,10 @@
+s main
+aaa
+pdf
+s 0x00401365
+aeim
+aer
+afvd
+pdf
+aesu 0x0040138b
+afvd

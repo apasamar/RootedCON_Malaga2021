@@ -1,0 +1,182 @@
+digraph code {
+rankdir=LR;
+outputorder=edgesfirst
+graph [bgcolor=azure];
+edge [arrowhead=normal, color="#3030c0" style=bold weight=2];
+node [fillcolor=white, style=filled shape=box fontname="Courier" fontsize="8"];
+"sym._fde_single_encoding_compare" [URL="sym._fde_single_encoding_compare", color="lightgray", label="sym._fde_single_encoding_compare"]
+"sym.imp.msvcrt.dll_signal" [URL="sym.imp.msvcrt.dll_signal", color="lightgray", label="sym.imp.msvcrt.dll_signal"]
+"sym._Sleep_4" [URL="sym._Sleep_4", color="lightgray", label="sym._Sleep_4"]
+"sym._InterlockedDecrement_4" [URL="sym._InterlockedDecrement_4", color="lightgray", label="sym._InterlockedDecrement_4"]
+"sym.___register_frame_info" [URL="sym.___register_frame_info", color="lightgray", label="sym.___register_frame_info"]
+"sym._scanf" [URL="sym._scanf", color="lightgray", label="sym._scanf"]
+"sym._read_sleb128" [URL="sym._read_sleb128", color="lightgray", label="sym._read_sleb128"]
+"sym._printf" [URL="sym._printf", color="lightgray", label="sym._printf"]
+"sym.___register_frame_info_table_bases" [URL="sym.___register_frame_info_table_bases", color="lightgray", label="sym.___register_frame_info_table_bases"]
+"sym.__gnu_exception_handler_4" [URL="sym.__gnu_exception_handler_4", color="lightgray", label="sym.__gnu_exception_handler_4"]
+"sym._WinMainCRTStartup" [URL="sym._WinMainCRTStartup", color="lightgray", label="sym._WinMainCRTStartup"]
+"entry0" [URL="entry0", color="lightgray", label="entry0"]
+"sym.___deregister_frame_info_bases" [URL="sym.___deregister_frame_info_bases", color="lightgray", label="sym.___deregister_frame_info_bases"]
+"sym._CreateSemaphoreA_16" [URL="sym._CreateSemaphoreA_16", color="lightgray", label="sym._CreateSemaphoreA_16"]
+"sym.imp.msvcrt.dll___set_app_type" [URL="sym.imp.msvcrt.dll___set_app_type", color="lightgray", label="sym.imp.msvcrt.dll___set_app_type"]
+"sym.___register_frame" [URL="sym.___register_frame", color="lightgray", label="sym.___register_frame"]
+"sym.___deregister_frame" [URL="sym.___deregister_frame", color="lightgray", label="sym.___deregister_frame"]
+"sym.__fpreset" [URL="sym.__fpreset", color="lightgray", label="sym.__fpreset"]
+"sym.___do_frame_init" [URL="sym.___do_frame_init", color="lightgray", label="sym.___do_frame_init"]
+"unk.0x402e60" [URL="unk.0x402e60", color="lightgray", label="unk.0x402e60"]
+"sym._FindAtomA_4" [URL="sym._FindAtomA_4", color="lightgray", label="sym._FindAtomA_4"]
+"sym._linear_search_fdes" [URL="sym._linear_search_fdes", color="lightgray", label="sym._linear_search_fdes"]
+"sym._size_of_encoded_value" [URL="sym._size_of_encoded_value", color="lightgray", label="sym._size_of_encoded_value"]
+"sym.___deregister_frame_info" [URL="sym.___deregister_frame_info", color="lightgray", label="sym.___deregister_frame_info"]
+"sym._init_object_mutex_once" [URL="sym._init_object_mutex_once", color="lightgray", label="sym._init_object_mutex_once"]
+"sym.__assert" [URL="sym.__assert", color="lightgray", label="sym.__assert"]
+"sym._ExitProcess_4" [URL="sym._ExitProcess_4", color="lightgray", label="sym._ExitProcess_4"]
+"sym.___do_frame_fini" [URL="sym.___do_frame_fini", color="lightgray", label="sym.___do_frame_fini"]
+"sym.___w32_sharedptr_initialize" [URL="sym.___w32_sharedptr_initialize", color="lightgray", label="sym.___w32_sharedptr_initialize"]
+"sym._add_fdes" [URL="sym._add_fdes", color="lightgray", label="sym._add_fdes"]
+"sym.___register_frame_info_table" [URL="sym.___register_frame_info_table", color="lightgray", label="sym.___register_frame_info_table"]
+"sym._main" [URL="sym._main", color="lightgray", label="sym._main"]
+"sym._malloc" [URL="sym._malloc", color="lightgray", label="sym._malloc"]
+"sym._search_object" [URL="sym._search_object", color="lightgray", label="sym._search_object"]
+"sym._SetUnhandledExceptionFilter_4" [URL="sym._SetUnhandledExceptionFilter_4", color="lightgray", label="sym._SetUnhandledExceptionFilter_4"]
+"sym.___getmainargs" [URL="sym.___getmainargs", color="lightgray", label="sym.___getmainargs"]
+"sym._abort" [URL="sym._abort", color="lightgray", label="sym._abort"]
+"sym._read_encoded_value_with_base" [URL="sym._read_encoded_value_with_base", color="lightgray", label="sym._read_encoded_value_with_base"]
+"sym.___p__fmode" [URL="sym.___p__fmode", color="lightgray", label="sym.___p__fmode"]
+"sym.___register_frame_table" [URL="sym.___register_frame_table", color="lightgray", label="sym.___register_frame_table"]
+"sym.imp.msvcrt.dll__setmode" [URL="sym.imp.msvcrt.dll__setmode", color="lightgray", label="sym.imp.msvcrt.dll__setmode"]
+"sym._fde_mixed_encoding_compare" [URL="sym._fde_mixed_encoding_compare", color="lightgray", label="sym._fde_mixed_encoding_compare"]
+"sym.imp.msvcrt.dll__cexit" [URL="sym.imp.msvcrt.dll__cexit", color="lightgray", label="sym.imp.msvcrt.dll__cexit"]
+"sym._AddAtomA_4" [URL="sym._AddAtomA_4", color="lightgray", label="sym._AddAtomA_4"]
+"sym._GetAtomNameA_12" [URL="sym._GetAtomNameA_12", color="lightgray", label="sym._GetAtomNameA_12"]
+"sym._frame_heapsort" [URL="sym._frame_heapsort", color="lightgray", label="sym._frame_heapsort"]
+"sym._base_from_object" [URL="sym._base_from_object", color="lightgray", label="sym._base_from_object"]
+"sym._free" [URL="sym._free", color="lightgray", label="sym._free"]
+"sym._strlen" [URL="sym._strlen", color="lightgray", label="sym._strlen"]
+"fcn.00402c80" [URL="fcn.00402c80", color="lightgray", label="fcn.00402c80"]
+"sym.___mingw_CRTStartup" [URL="sym.___mingw_CRTStartup", color="lightgray", label="sym.___mingw_CRTStartup"]
+"sym._frame_downheap" [URL="sym._frame_downheap", color="lightgray", label="sym._frame_downheap"]
+"sym._atexit" [URL="sym._atexit", color="lightgray", label="sym._atexit"]
+"main" [URL="main", color="lightgray", label="main"]
+"sym.imp.msvcrt.dll___p__environ" [URL="sym.imp.msvcrt.dll___p__environ", color="lightgray", label="sym.imp.msvcrt.dll___p__environ"]
+"sym._init_object_mutex" [URL="sym._init_object_mutex", color="lightgray", label="sym._init_object_mutex"]
+"sym._get_cie_encoding" [URL="sym._get_cie_encoding", color="lightgray", label="sym._get_cie_encoding"]
+"sym.__Unwind_Find_FDE" [URL="sym.__Unwind_Find_FDE", color="lightgray", label="sym.__Unwind_Find_FDE"]
+"sym._read_uleb128" [URL="sym._read_uleb128", color="lightgray", label="sym._read_uleb128"]
+"sym._ReleaseSemaphore_12" [URL="sym._ReleaseSemaphore_12", color="lightgray", label="sym._ReleaseSemaphore_12"]
+"sym.___main" [URL="sym.___main", color="lightgray", label="sym.___main"]
+"sym._classify_object_over_fdes" [URL="sym._classify_object_over_fdes", color="lightgray", label="sym._classify_object_over_fdes"]
+"sym.___register_frame_info_bases" [URL="sym.___register_frame_info_bases", color="lightgray", label="sym.___register_frame_info_bases"]
+"sym._WaitForSingleObject_8" [URL="sym._WaitForSingleObject_8", color="lightgray", label="sym._WaitForSingleObject_8"]
+"sym.___do_global_ctors" [URL="sym.___do_global_ctors", color="lightgray", label="sym.___do_global_ctors"]
+"sym._InterlockedIncrement_4" [URL="sym._InterlockedIncrement_4", color="lightgray", label="sym._InterlockedIncrement_4"]
+"sym.___w32_sharedptr_get" [URL="sym.___w32_sharedptr_get", color="lightgray", label="sym.___w32_sharedptr_get"]
+"sym.__pei386_runtime_relocator" [URL="sym.__pei386_runtime_relocator", color="lightgray", label="sym.__pei386_runtime_relocator"]
+"sym._fde_single_encoding_compare" -> "sym._base_from_object"
+"sym._fde_single_encoding_compare" -> "sym._read_encoded_value_with_base"
+"sym.___register_frame_info" -> "sym.___register_frame_info_bases"
+"sym.___register_frame_info_table_bases" -> "sym._init_object_mutex_once"
+"sym.___register_frame_info_table_bases" -> "sym._InterlockedIncrement_4"
+"sym.___register_frame_info_table_bases" -> "sym._InterlockedDecrement_4"
+"sym.___register_frame_info_table_bases" -> "sym._ReleaseSemaphore_12"
+"sym.___register_frame_info_table_bases" -> "sym._WaitForSingleObject_8"
+"sym.__gnu_exception_handler_4" -> "sym.imp.msvcrt.dll_signal"
+"sym.__gnu_exception_handler_4" -> "sym.__fpreset"
+"sym._WinMainCRTStartup" -> "sym.imp.msvcrt.dll___set_app_type"
+"sym._WinMainCRTStartup" -> "sym.___mingw_CRTStartup"
+"entry0" -> "sym.imp.msvcrt.dll___set_app_type"
+"entry0" -> "sym.___mingw_CRTStartup"
+"sym.___deregister_frame_info_bases" -> "sym._init_object_mutex_once"
+"sym.___deregister_frame_info_bases" -> "sym._InterlockedIncrement_4"
+"sym.___deregister_frame_info_bases" -> "sym._InterlockedDecrement_4"
+"sym.___deregister_frame_info_bases" -> "sym._ReleaseSemaphore_12"
+"sym.___deregister_frame_info_bases" -> "sym._free"
+"sym.___deregister_frame_info_bases" -> "sym._abort"
+"sym.___deregister_frame_info_bases" -> "sym._WaitForSingleObject_8"
+"sym.___register_frame" -> "sym._malloc"
+"sym.___register_frame" -> "sym.___register_frame_info"
+"sym.___deregister_frame" -> "sym.___deregister_frame_info"
+"sym.___do_frame_init" -> "sym.___w32_sharedptr_initialize"
+"sym.___do_frame_init" -> "sym.___register_frame_info"
+"sym._linear_search_fdes" -> "sym._base_from_object"
+"sym._linear_search_fdes" -> "sym._get_cie_encoding"
+"sym._linear_search_fdes" -> "sym._read_encoded_value_with_base"
+"sym._linear_search_fdes" -> "sym._size_of_encoded_value"
+"sym._size_of_encoded_value" -> "sym._abort"
+"sym._init_object_mutex_once" -> "sym._InterlockedIncrement_4"
+"sym._init_object_mutex_once" -> "sym._Sleep_4"
+"sym._init_object_mutex_once" -> "sym._init_object_mutex"
+"sym.___do_frame_fini" -> "sym.___deregister_frame_info"
+"sym.___w32_sharedptr_initialize" -> "sym._FindAtomA_4"
+"sym.___w32_sharedptr_initialize" -> "sym._malloc"
+"sym.___w32_sharedptr_initialize" -> "sym._AddAtomA_4"
+"sym.___w32_sharedptr_initialize" -> "sym._free"
+"sym.___w32_sharedptr_initialize" -> "sym.___w32_sharedptr_get"
+"sym.___w32_sharedptr_initialize" -> "sym._abort"
+"sym._add_fdes" -> "sym._base_from_object"
+"sym._add_fdes" -> "sym._get_cie_encoding"
+"sym._add_fdes" -> "sym._read_encoded_value_with_base"
+"sym._add_fdes" -> "sym._size_of_encoded_value"
+"sym.___register_frame_info_table" -> "sym.___register_frame_info_table_bases"
+"sym._search_object" -> "sym._get_cie_encoding"
+"sym._search_object" -> "sym._base_from_object"
+"sym._search_object" -> "sym._read_encoded_value_with_base"
+"sym._search_object" -> "sym._linear_search_fdes"
+"sym._search_object" -> "sym._classify_object_over_fdes"
+"sym._search_object" -> "sym._malloc"
+"sym._search_object" -> "sym._add_fdes"
+"sym._search_object" -> "sym._abort"
+"sym._search_object" -> "sym._frame_heapsort"
+"sym._search_object" -> "sym._free"
+"sym._read_encoded_value_with_base" -> "sym._abort"
+"sym._read_encoded_value_with_base" -> "sym._read_uleb128"
+"sym._read_encoded_value_with_base" -> "sym._read_sleb128"
+"sym.___register_frame_table" -> "sym._malloc"
+"sym.___register_frame_table" -> "sym.___register_frame_info_table"
+"sym._fde_mixed_encoding_compare" -> "sym._get_cie_encoding"
+"sym._fde_mixed_encoding_compare" -> "sym._base_from_object"
+"sym._fde_mixed_encoding_compare" -> "sym._read_encoded_value_with_base"
+"sym._frame_heapsort" -> "sym._frame_downheap"
+"sym._base_from_object" -> "sym._abort"
+"sym.___mingw_CRTStartup" -> "sym._SetUnhandledExceptionFilter_4"
+"sym.___mingw_CRTStartup" -> "sym.__fpreset"
+"sym.___mingw_CRTStartup" -> "sym.___getmainargs"
+"sym.___mingw_CRTStartup" -> "sym.imp.msvcrt.dll__setmode"
+"sym.___mingw_CRTStartup" -> "sym.___p__fmode"
+"sym.___mingw_CRTStartup" -> "sym.__pei386_runtime_relocator"
+"sym.___mingw_CRTStartup" -> "sym.imp.msvcrt.dll___p__environ"
+"sym.___mingw_CRTStartup" -> "sym._main"
+"sym.___mingw_CRTStartup" -> "sym.imp.msvcrt.dll__cexit"
+"sym.___mingw_CRTStartup" -> "sym._ExitProcess_4"
+"main" -> "fcn.00402c80"
+"main" -> "sym.___main"
+"main" -> "sym._printf"
+"main" -> "sym._scanf"
+"sym._init_object_mutex" -> "sym._CreateSemaphoreA_16"
+"sym._get_cie_encoding" -> "sym._strlen"
+"sym._get_cie_encoding" -> "sym._read_uleb128"
+"sym._get_cie_encoding" -> "sym._read_sleb128"
+"sym._get_cie_encoding" -> "sym._read_encoded_value_with_base"
+"sym.__Unwind_Find_FDE" -> "sym._init_object_mutex_once"
+"sym.__Unwind_Find_FDE" -> "sym._search_object"
+"sym.__Unwind_Find_FDE" -> "sym._base_from_object"
+"sym.__Unwind_Find_FDE" -> "sym._read_encoded_value_with_base"
+"sym.__Unwind_Find_FDE" -> "sym._InterlockedIncrement_4"
+"sym.__Unwind_Find_FDE" -> "sym._InterlockedDecrement_4"
+"sym.__Unwind_Find_FDE" -> "sym._ReleaseSemaphore_12"
+"sym.__Unwind_Find_FDE" -> "sym._get_cie_encoding"
+"sym.__Unwind_Find_FDE" -> "sym._WaitForSingleObject_8"
+"sym._classify_object_over_fdes" -> "sym._get_cie_encoding"
+"sym._classify_object_over_fdes" -> "sym._base_from_object"
+"sym._classify_object_over_fdes" -> "sym._read_encoded_value_with_base"
+"sym._classify_object_over_fdes" -> "sym._size_of_encoded_value"
+"sym.___register_frame_info_bases" -> "sym._init_object_mutex_once"
+"sym.___register_frame_info_bases" -> "sym._InterlockedDecrement_4"
+"sym.___register_frame_info_bases" -> "sym._ReleaseSemaphore_12"
+"sym.___register_frame_info_bases" -> "sym._InterlockedIncrement_4"
+"sym.___register_frame_info_bases" -> "sym._WaitForSingleObject_8"
+"sym.___do_global_ctors" -> "unk.0x402e60"
+"sym.___do_global_ctors" -> "sym._atexit"
+"sym.___w32_sharedptr_get" -> "sym._GetAtomNameA_12"
+"sym.___w32_sharedptr_get" -> "sym.__assert"
+}
